@@ -252,7 +252,7 @@ const TabsFilled = () => {
           <NavLink
             active={active === '6'}
             onClick={() => {
-              toggle('5')
+              toggle('6')
             }}
           >
            Reports
