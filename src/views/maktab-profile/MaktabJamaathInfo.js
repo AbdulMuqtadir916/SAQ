@@ -250,7 +250,7 @@ const TabsFilled = () => {
         </NavItem> 
         <NavItem>
           <NavLink
-            active={active === '5'}
+            active={active === '6'}
             onClick={() => {
               toggle('5')
             }}
