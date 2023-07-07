@@ -240,9 +240,9 @@ const TabsFilled = () => {
         </NavItem>
         <NavItem>
           <NavLink
-            active={active === '4'}
+            active={active === '5'}
             onClick={() => {
-              toggle('4')
+              toggle('5')
             }}
           >
             Teacher Attendence
@@ -250,9 +250,9 @@ const TabsFilled = () => {
         </NavItem> 
         <NavItem>
           <NavLink
-            active={active === '4'}
+            active={active === '5'}
             onClick={() => {
-              toggle('4')
+              toggle('5')
             }}
           >
            Reports
@@ -305,6 +305,28 @@ const TabsFilled = () => {
           </p>
         </TabPane>
         <TabPane tabId='4'>
+          <p>
+            Candy canes halvah biscuit muffin dessert biscuit marzipan. Gummi bears marzipan bonbon chupa chups biscuit
+            lollipop topping. Muffin sweet apple pie sweet roll jujubes chocolate. Topping cake chupa chups chocolate
+            bar tiramisu tart sweet roll chocolate cake.
+          </p>
+          <p>
+            Jelly beans caramels muffin wafer sesame snaps chupa chups chocolate cake pastry halvah. Sugar plum cotton
+            candy macaroon tootsie roll topping. Liquorice topping chocolate cake tart tootsie roll danish bear claw.
+            Donut candy canes marshmallow. Wafer cookie apple pie.
+          </p>
+        </TabPane> <TabPane tabId='5'>
+          <p>
+            Candy canes halvah biscuit muffin dessert biscuit marzipan. Gummi bears marzipan bonbon chupa chups biscuit
+            lollipop topping. Muffin sweet apple pie sweet roll jujubes chocolate. Topping cake chupa chups chocolate
+            bar tiramisu tart sweet roll chocolate cake.
+          </p>
+          <p>
+            Jelly beans caramels muffin wafer sesame snaps chupa chups chocolate cake pastry halvah. Sugar plum cotton
+            candy macaroon tootsie roll topping. Liquorice topping chocolate cake tart tootsie roll danish bear claw.
+            Donut candy canes marshmallow. Wafer cookie apple pie.
+          </p>
+        </TabPane> <TabPane tabId='6'>
           <p>
             Candy canes halvah biscuit muffin dessert biscuit marzipan. Gummi bears marzipan bonbon chupa chups biscuit
             lollipop topping. Muffin sweet apple pie sweet roll jujubes chocolate. Topping cake chupa chups chocolate
