@@ -250,9 +250,9 @@ const TabsFilled = () => {
         </NavItem> 
         <NavItem>
           <NavLink
-            active={active === '5'}
+            active={active === '6'}
             onClick={() => {
-              toggle('5')
+              toggle('6')
             }}
           >
            Reports
@@ -335,7 +335,7 @@ const TabsFilled = () => {
           <p>
             Jelly beans caramels muffin wafer sesame snaps chupa chups chocolate cake pastry halvah. Sugar plum cotton
             candy macaroon tootsie roll topping. Liquorice topping chocolate cake tart tootsie roll danish bear claw.
-            Donut candy canes marshmallow. Wafer cookie apple pie.
+            Donut candy canes marshmallow. Wafer cookie apple.
           </p>
         </TabPane>
       </TabContent>
